@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f5f3ff">
+    <title>ShopBoost AI — AI Shopping & Revenue Growth Agent</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="page">
+
+        <!-- HEADER -->
+        <header class="header">
+            <div class="brand">
+                <div class="brand-logo" aria-hidden="true">
+                    <span class="bag-blue"></span>
+                    <span class="bag-orange"></span>
+                </div>
+
+                <div>
+                    <h1>ShopBoost <span>AI</span></h1>
+                    <p>AI Shopping &amp; Revenue Growth Agent</p>
+                </div>
+            </div>
+
+            <div class="header-actions">
+                <button class="assistant-button" id="assistantButton">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    <span>Your AI Shopping Assistant</span>
+                </button>
+
+                <button class="theme-button" id="themeToggle" aria-label="Toggle dark mode">
+                    <i class="fa-solid fa-sun"></i>
+                </button>
+            </div>
+        </header>
+
+        <!-- HERO -->
+        <main>
+            <section class="hero">
+
+                <!-- Decorative icons -->
+                <div class="floating-card cart-float" aria-hidden="true">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+
+                <div class="floating-card chart-float" aria-hidden="true">
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+
+                <!-- EXACT ILLUSTRATION CROPS FROM IMAGE 1 -->
+                <div class="shopping-cart-art" aria-hidden="true">
+                    <img src="assets/shopping-cart.png" alt="">
+                </div>
+
+                <div class="growth-art" aria-hidden="true">
+                    <img src="assets/growth-bars.png" alt="">
+                </div>
+
+                <!-- Hero content -->
+                <div class="hero-content">
+                    <h2>
+                        Smarter Shopping,<br>
+                        <span>Higher Revenue</span>
+                    </h2>
+
+                    <p class="hero-subtitle">
+                        Ask anything about products, recommendations, revenue insights,<br class="desktop-only">
+                        and growth strategies. Let AI <strong>boost your business!</strong>
+                    </p>
+
+                    <form class="search-box" id="searchForm">
+                        <div class="search-symbol">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+
+                        <input
+                            id="userQuery"
+                            type="text"
+                            autocomplete="off"
+                            placeholder="Example: I need wireless headphones under ₹2000"
+                            aria-label="Ask ShopBoost AI"
+                        >
+
+                        <button class="ask-button" id="askAI" type="submit">
+                            <i class="fa-regular fa-paper-plane"></i>
+                            <span>Ask AI</span>
+                        </button>
+                    </form>
+
+                    <p class="assistant-status" id="assistantStatus">
+                        <br>
+                        Your AI shopping assistant is ready to recommend the best options.
+                    </p>
+
+                    <!-- AI RESULT -->
+                    <div id="aiResult" class="ai-result"></div>
+
+                    <div class="search-message" id="searchMessage"></div>
+                </div>
+            </section>
+
+            <!-- FEATURE CARDS -->
+            <section class="features">
+
+                <article class="feature-card">
+                    <div class="feature-icon purple">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </div>
+                    <div class="feature-text">
+                        <h3>Smart Recommendations</h3>
+                        <p>AI suggests the best products<br>based on your needs.</p>
+                    </div>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon green">
+                        <i class="fa-solid fa-chart-column"></i>
+                    </div>
+                    <div class="feature-text">
+                        <h3>Revenue Insights</h3>
+                        <p>Get AI-powered insights to<br>increase your store revenue.</p>
+                    </div>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon orange">
+                        <i class="fa-solid fa-tag"></i>
+                    </div>
+                    <div class="feature-text">
+                        <h3>Product Discovery</h3>
+                        <p>Find trending products and<br>high-demand items.</p>
+                    </div>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon violet">
+                        <i class="fa-solid fa-headset"></i>
+                    </div>
+                    <div class="feature-text">
+                        <h3>24/7 AI Assistant</h3>
+                        <p>Always here to help you with<br>shopping and growth.</p>
+                    </div>
+                </article>
+
+            </section>
+
+            <!-- BOTTOM CTA -->
+            <section class="growth-banner">
+                <div class="growth-message">
+                    <div class="sparkle-circle">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    </div>
+
+                    <div>
+                        <h3>Your Growth, Our Priority</h3>
+                        <p>Leverage AI to enhance customer experience and maximize revenue.</p>
+                    </div>
+                </div>
+
+                <button class="explore-button" id="exploreButton">
+                    <span>Explore More</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
