@@ -1,0 +1,101 @@
+[
+    {
+        "timestamp": "2026-08-31T08:40:46.361531",
+        "event": "AI_RECOMMENDATION",
+        "details": {
+            "customer_request": "I need wireless headphones under \u20b93000",
+            "result": {
+                "success": false,
+                "message": "AI service error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: YOUR_NEW***********_KEY. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+            }
+        }
+    },
+    {
+        "timestamp": "2026-08-31T08:48:12.384933",
+        "event": "AI_RECOMMENDATION",
+        "details": {
+            "customer_request": "I need wireless headphones under \u20b93000",
+            "result": {
+                "success": false,
+                "message": "AI service error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: YOUR_NEW***********_KEY. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"
+            }
+        }
+    },
+    {
+        "timestamp": "2026-08-31T15:04:06.592636",
+        "event": "AI_RECOMMENDATION",
+        "details": {
+            "customer_request": "I need wireless headphones under \u20b93000",
+            "result": {
+                "success": false,
+                "message": "AI service error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}"
+            }
+        }
+    },
+    {
+        "timestamp": "2026-08-31T15:10:12.000446",
+        "event": "AI_RECOMMENDATION",
+        "details": {
+            "customer_request": "I need wireless headphones under \u20b93000",
+            "result": {
+                "success": false,
+                "message": "AI service error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}"
+            }
+        }
+    },
+    {
+        "timestamp": "2026-08-31T15:13:04.536672",
+        "event": "AI_RECOMMENDATION",
+        "details": {
+            "customer_request": "I need wireless headphones under \u20b93000",
+            "result": {
+                "success": false,
+                "message": "AI service error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}"
+            }
+        }
+    },
+    {
+        "timestamp": "2026-08-31T15:13:24.929666",
+        "event": "AI_RECOMMENDATION",
+        "details": {
+            "customer_request": "I need wireless headphones under \u20b93000",
+            "result": {
+                "success": false,
+                "message": "AI service error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}"
+            }
+        }
+    },
+    {
+        "timestamp": "2026-08-31T15:18:00.675788",
+        "event": "AI_RECOMMENDATION",
+        "details": {
+            "customer_request": "I need wireless headphones under \u20b93000",
+            "result": {
+                "success": false,
+                "message": "AI service error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}"
+            }
+        }
+    },
+    {
+        "timestamp": "2026-09-01T14:57:34.486674",
+        "event": "AI_RECOMMENDATION",
+        "details": {
+            "customer_request": "I need wireless headphones under \u20b93000",
+            "result": {
+                "success": false,
+                "message": "AI service error: Error code: 401 - {'error': {'message': 'Your API key has been invalidated.', 'type': None, 'code': 'token_invalidated', 'param': None}, 'status': 401}"
+            }
+        }
+    },
+    {
+        "timestamp": "2026-09-01T14:58:13.383155",
+        "event": "AI_RECOMMENDATION",
+        "details": {
+            "customer_request": "I need wireless headphones under \u20b93000",
+            "result": {
+                "success": false,
+                "message": "AI service error: Error code: 401 - {'error': {'message': 'Your API key has been invalidated.', 'type': None, 'code': 'token_invalidated', 'param': None}, 'status': 401}"
+            }
+        }
+    }
+]
