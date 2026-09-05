@@ -1,0 +1,62 @@
+[
+    {
+        "id": "P001",
+        "name": "SoundMax Wireless Headphones",
+        "category": "Headphones",
+        "price": 2499,
+        "rating": 4.5,
+        "description": "Wireless headphones with 40-hour battery life and deep bass.",
+        "tags": ["wireless", "headphones", "music", "bluetooth"],
+        "upsell": "P004"
+    },
+    {
+        "id": "P002",
+        "name": "BassPro Bluetooth Earbuds",
+        "category": "Earbuds",
+        "price": 1799,
+        "rating": 4.3,
+        "description": "Compact Bluetooth earbuds with noise reduction.",
+        "tags": ["earbuds", "wireless", "bluetooth"],
+        "upsell": "P005"
+    },
+    {
+        "id": "P003",
+        "name": "GameX Gaming Headset",
+        "category": "Gaming",
+        "price": 2999,
+        "rating": 4.6,
+        "description": "Gaming headset with surround sound and microphone.",
+        "tags": ["gaming", "headset", "microphone"],
+        "upsell": "P006"
+    },
+    {
+        "id": "P004",
+        "name": "Premium Carry Case",
+        "category": "Accessories",
+        "price": 499,
+        "rating": 4.4,
+        "description": "Protective carrying case for headphones.",
+        "tags": ["case", "accessory", "headphones"],
+        "upsell": null
+    },
+    {
+        "id": "P005",
+        "name": "Fast USB-C Charger",
+        "category": "Accessories",
+        "price": 699,
+        "rating": 4.5,
+        "description": "Fast charging USB-C adapter.",
+        "tags": ["charger", "usb-c", "accessory"],
+        "upsell": null
+    },
+    {
+        "id": "P006",
+        "name": "Gaming Mouse",
+        "category": "Gaming",
+        "price": 1299,
+        "rating": 4.7,
+        "description": "High precision gaming mouse.",
+        "tags": ["gaming", "mouse", "accessory"],
+        "upsell": null
+    }
+]
